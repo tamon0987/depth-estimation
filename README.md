@@ -2,6 +2,10 @@
 
 DL を使わない古典的ステレオマッチング（SGBM + WLS）で、2枚のステレオ画像から視差マップを生成するパイプライン。
 
+![example output](docs/example.png)
+
+上段：平行化済みの左右画像 / 左下：WLS フィルタをかけた視差マップ（明るいほど近い）/ 右下：平行化の検証（緑の水平線上で左右の特徴が揃っているか）。
+
 参考: [Teledyne - Enhancing stereo depth estimation with deep learning techniques](https://www.teledynevisionsolutions.com/ja-jp/learn/learning-center/machine-vision/enhancing-stereo-depth-estimation-with-deep-learning-techniques/)
 
 ## パイプライン
